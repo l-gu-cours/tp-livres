@@ -1,0 +1,22 @@
+<project name="tp" default="export">
+
+	<property name="dist_dir"  value="./dist" />
+	
+	<property name="zip_file"        value="${dist_dir}/tp_livre_init.zip" />
+
+	<!-- ============================================================================== -->
+	<!--                                                      -->
+	<!-- ============================================================================== -->
+	<target name="export" >
+		<echo message="Export ... file : ${zip_file} " />
+		<mkdir dir="${dist_dir}" />
+		<delete file="${zip_file}" />
+		<zip destfile="${zip_file}"  >	
+			<zipfileset dir="./doc"                       prefix="doc"         />		
+			<zipfileset file="./src/main/java/tp/beans/Livre.java"         prefix="src/main/java/tp/beans"       />	
+			<zipfileset file="./src/main/java/tp/services/Catalogue.java"  prefix="src/main/java/tp/services"  />	
+			<zipfileset file="./build.xml"    />	
+		</zip>
+	</target>
+
+</project>

@@ -1,0 +1,16 @@
+<table border="1">
+<tr>
+
+<td>&nbsp;Gestion des livres&nbsp;</td>
+
+<td><a href="./" >Accueil </a></td>
+
+<td><a href="./ListerCatalogue">Catalogue</a></td>
+
+<td><a href="./Filtrer" >Filtrer </a></td>
+
+<c:if test="${ ! empty sessionScope.liste}"  >
+<td><a href="./ListerSelection" >Sélection </a></td>
+</c:if>
+
+</table>

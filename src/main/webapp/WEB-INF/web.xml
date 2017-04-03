@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>livres</display-name>
+  
+	
+	<!-- SERVLETS -->
+<!-- 	<servlet>
+		<servlet-name>ListerCatalogue</servlet-name>
+		<servlet-class>servlet.ListerCatalogue</servlet-class>
+	</servlet>
+ -->	<servlet>
+		<servlet-name>ListerSelection</servlet-name>
+		<servlet-class>servlet.ListerSelection</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Filtrer</servlet-name>
+		<servlet-class>servlet.Filtrer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Modifier</servlet-name>
+		<servlet-class>servlet.Modifier</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Enregistrer</servlet-name>
+		<servlet-class>servlet.Enregistrer</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ViderListe</servlet-name>
+		<servlet-class>servlet.ViderListe</servlet-class>
+	</servlet>
+	
+	<!-- MAPPING -->
+	
+<!-- 
+	<servlet-mapping>
+		<servlet-name>ListerCatalogue</servlet-name>
+		<url-pattern>/ListerCatalogue</url-pattern>
+	</servlet-mapping>
+ 	<servlet-mapping>
+		<servlet-name>ListerSelection</servlet-name>
+		<url-pattern>/ListerSelection</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Filtrer</servlet-name>
+		<url-pattern>/Filtrer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Modifier</servlet-name>
+		<url-pattern>/Modifier</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Enregistrer</servlet-name>
+		<url-pattern>/Enregistrer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViderListe</servlet-name>
+		<url-pattern>/ViderListe</url-pattern>
+	</servlet-mapping>
+-->	
+	  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

@@ -1,0 +1,4 @@
+
+  PLACER LA DOCUMENTATION DANS CE REPERTOIRE 
+  ( fichiers txt, doc, images, etc ... ) 
+
