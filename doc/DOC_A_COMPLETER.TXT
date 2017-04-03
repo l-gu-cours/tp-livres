@@ -1,0 +1,28 @@
+
+
+ROLE DES SERVLETS ET/OU CONTROLLERS
+-----------------------------------
+
+Pour chacune des actions du TP indiquer quelle servlet (ou servlet + controller) 
+est invoquée ainsi que la (ou les) JSP utilisée(s) pour afficher le résultat
+
+Exemple :
+						
+"Lister le catalogue"  
+   --> Servlet "Xxxxx"  ( ou Servlet "FrontController" --> Controller "Xxxx" )
+   --> JSP "Xxxx" si xxxx
+   --> JSP "Xxxx" si yyyy
+
+etc...
+
+
+
+STOCKAGE DES DIFFERENTS OBJETS
+------------------------------
+
+Objets stockés au niveau "SESSION" : 
+ 
+ . Nom de l'objet & Classe de l'objet
+
+Objets stockés au niveau "REQUEST" : 
+
