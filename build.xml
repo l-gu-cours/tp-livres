@@ -27,6 +27,7 @@
 				<filename name="*.xml"/>  <!-- build*.xml, pom.xml -->
 			</zipfileset>			
 		</zip>
+		<echo message="ZIP file in 'dist' folder (Press F5 to refresh workspace) " />
 	</target>
 
 </project>
