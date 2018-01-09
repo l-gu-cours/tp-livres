@@ -1,4 +1,11 @@
 
- FAIRE LE PUSH AVEC UN OUTIL EXTERNE ( ex SOURCETREE )
-    
+ Git Perspective
+ 
+   Repository name --> Remotes --> xxx -->  IN or OUT config 
+   
+   "Change Credentials"  
+     User : l-gu-cours
+     Password : 
+   
+ 
   
