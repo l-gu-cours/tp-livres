@@ -7,5 +7,6 @@
      User : l-gu-cours
      Password : 
    
- 
+   
+ NB : changed for all Eclipse workspaces on the workstation !
   
